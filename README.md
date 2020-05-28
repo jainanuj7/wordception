@@ -17,7 +17,11 @@ https://stackoverflow.com/a/10757188/3302140 <br/><br/>
 I had to import all the data using a .sql file which took hours to execute. <br/>
 I exported the necassary word dataset (after cleaning it, ofc!) as a .csv file in case someone wants to use it,
 In case you want to import the actual dataset yourself, you can run the .sql file mentioned in the stackoverflow answer above. <br/>
-Since it is a HUUUUGE single sql file, I suggest you to execute it directly from Command Prompt. Using a tool like SQL Workbench might not help much.
+Since it is a HUUUUGE single sql file, I suggest you to execute it directly from Command Prompt. Using a tool like SQL Workbench might not help much. <br/><br/>
+
+The 9-letter magic words I found using this code are __**startling**__ and __**lacerated**__<br/>
+```['lacerated -> ', 'lacerate -> ', 'acerate -> ', 'cerate -> ', 'crate -> ', 'rate -> ', 'rat -> ', 'at -> ', 't -> ']``` <br/>
+```['startling -> ', 'starling -> ', 'staring -> ', 'string -> ', 'sting -> ', 'ting -> ', 'tin -> ', 'in -> ', 'i -> ']``` <br/><br/>
 
 This code is ran to find such 9-letter "magic words", it is made flexible enough to be extended to find any n-letter magical word. <br/><br/><br/>
 
